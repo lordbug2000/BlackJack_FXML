@@ -1,0 +1,8 @@
+"Date","Game Number","Player Hand","Player Final Score", "Dealer Hands","Dealer Final Score","Final Result","Session W:L Record"
+"Sun Oct 08 16:57:12 EDT 2017","Game #1","[Ace of Clubs (11), Seven of Diamonds (7)]","18","[Queen of Diamonds (10), Queen of Hearts (10)]","20","Dealer Wins!","0:1",
+"Sun Oct 08 16:57:15 EDT 2017","Game #2","[Nine of Diamonds (9), Six of Hearts (6), Ace of Spades (11), Nine of Diamonds (9)]","25","[Eight of Spades (8), Nine of Hearts (9)]","17","Player Bust!","0:2",
+"Sun Oct 08 16:57:23 EDT 2017","Game #3","[Seven of Hearts (7), Ace of Hearts (11), Two of Clubs (2)]","20","[Jack of Hearts (10), Nine of Hearts (9)]","19","Player Wins!","1:2",
+"Sun Oct 08 16:57:26 EDT 2017","Game #4","[Nine of Spades (9), Ten of Clubs (10)]","19","[Four of Spades (4), Nine of Clubs (9), Five of Spades (5)]","18","Player Wins!","2:2",
+"Sun Oct 08 16:57:28 EDT 2017","Game #5","[Six of Diamonds (6), Nine of Spades (9), Ten of Diamonds (10)]","25","[Ten of Diamonds (10), Queen of Hearts (10)]","20","Player Bust!","2:3",
+"Sun Oct 08 16:57:32 EDT 2017","Game #6","[Queen of Clubs (10), Four of Clubs (4), Three of Hearts (3)]","17","[Nine of Spades (9), Six of Diamonds (6), Five of Clubs (5)]","20","Dealer Wins!","2:4",
+"Sun Oct 08 16:57:38 EDT 2017","Game #7","[Seven of Clubs (7), Two of Spades (2), Nine of Hearts (9)]","18","[Four of Clubs (4), Ace of Spades (11), Eight of Hearts (8), Five of Clubs (5)]","18","Tie!","3:4",

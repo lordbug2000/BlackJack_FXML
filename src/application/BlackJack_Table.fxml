@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+	<children>
+		<VBox>
+			<children>
+				<Pane>
+					<children>
+						<Rectangle fx:id="top" arcHeight="5.0" arcWidth="5.0" fill="#238F23" height="175.0" stroke="#238F23" strokeType="INSIDE" width="510.0" />
+						<HBox layoutX="46.0" layoutY="16.0">
+							<children>
+								<Pane>
+									<children>
+										<TextField fx:id="Dealer_1" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<!-- Top Corner -->
+										<ImageView fx:id="Dealer_1_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_1_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_1_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_1_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Dealer_1_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_1_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_1_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_1_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Dealer_2" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Dealer_2_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_2_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_2_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_2_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Dealer_2_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_2_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_2_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_2_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Dealer_3" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Dealer_3_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_3_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_3_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_3_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Dealer_3_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_3_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_3_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_3_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Dealer_4" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Dealer_4_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_4_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_4_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_4_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Dealer_4_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_4_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_4_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_4_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Dealer_5" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Dealer_5_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_5_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_5_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_5_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Dealer_5_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_5_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_5_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Dealer_5_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+							</children>
+						</HBox>
+						<TextField fx:id="DealerScore" alignment="CENTER" editable="false" layoutX="7.0" layoutY="16.0" maxHeight="25.0" maxWidth="39.0" />
+					</children>
+				</Pane>
+				<Pane>
+					<children>
+
+						<!-- Begin Dealer -->
+						<Rectangle fx:id="top" arcHeight="5.0" arcWidth="5.0" fill="#238F23" height="175.0" stroke="#238F23" strokeType="INSIDE" width="510.0" />
+						<HBox layoutX="16.0" layoutY="25.0">
+							<children>
+								<Pane>
+									<children>
+										<TextField fx:id="Player_1" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<!-- Top Corner -->
+										<ImageView fx:id="Player_1_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_1_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_1_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_1_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" layoutY="0.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Player_1_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_1_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_1_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_1_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Player_2" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Player_2_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_2_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_2_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_2_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Player_2_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_2_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_2_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_2_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Player_3" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Player_3_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_3_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_3_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_3_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Player_3_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_3_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_3_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_3_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Player_4" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Player_4_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_4_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_4_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_4_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Player_4_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_4_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_4_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_4_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<Pane>
+									<children>
+										<TextField fx:id="Player_5" alignment="CENTER" editable="false" maxHeight="135.0" maxWidth="90" prefHeight="135.0" prefWidth="90.0">
+											<font>
+												<Font name="Comic Sans MS Bold" size="36.0" />
+											</font>
+										</TextField>
+										<ImageView fx:id="Player_5_H" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_5_D" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_5_S" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_5_C" fitHeight="40.0" fitWidth="40.0" layoutX="50.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+										
+										<!-- Bottom Corner -->
+										<ImageView fx:id="Player_5_H2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@heart.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_5_D2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@diamond.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_5_S2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@spade.png" />
+											</image>
+										</ImageView>
+										<ImageView fx:id="Player_5_C2" fitHeight="40.0" fitWidth="40.0" layoutX="0.0" layoutY="95.0" pickOnBounds="true" smooth="false" visible="false">
+											<image>
+												<Image url="@club.png" />
+											</image>
+										</ImageView>
+									</children>
+								</Pane>
+								<TextField fx:id="PlayerScore" alignment="CENTER" maxHeight="25.0" maxWidth="39.0" />
+							</children>
+						</HBox>
+					</children>
+				</Pane>
+				<ToolBar maxWidth="510.0" prefHeight="50.0">
+					<items>
+						<GridPane>
+							<columnConstraints>
+								<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+								<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+								<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+								<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+								<ColumnConstraints />
+							</columnConstraints>
+							<rowConstraints>
+								<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+							</rowConstraints>
+							<children>
+								<Button fx:id="hit" minWidth="25.0" mnemonicParsing="false" onAction="#onHit" text="Hit" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+								<Button fx:id="stand" minWidth="25.0" mnemonicParsing="false" onAction="#onStand" text="Stand" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+								<Button fx:id="fold" minWidth="25.0" mnemonicParsing="false" onAction="#onFold" text="Fold" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+								<Button fx:id="quit" minWidth="25.0" mnemonicParsing="false" onAction="#onQuit" text="Quit" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+								<Button fx:id="play" minWidth="25.0" mnemonicParsing="false" onAction="#onPlay" text="Play" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+							</children>
+						</GridPane>
+					</items>
+				</ToolBar>
+			</children>
+		</VBox>
+            		<TextField fx:id="PopUp_Window" alignment="CENTER" editable="false" layoutX="50" layoutY="100" prefHeight="150.0" prefWidth="410.0" text="Welcome!">
+            			<font>
+            				<Font name="Comic Sans MS Bold" size="48.0" />
+            			</font>
+            		</TextField>
+            		<Button fx:id="PopPlay" layoutX="155.0" layoutY="200.0" mnemonicParsing="false" onAction="#onPlay" prefHeight="50.0" prefWidth="100.0" text="Play" />
+            		<Button fx:id="PopQuit" layoutX="255.0" layoutY="200.0" mnemonicParsing="false" onAction="#onQuit" prefHeight="50.0" prefWidth="100.0" text="Quit" />
+	</children>
+</AnchorPane>
