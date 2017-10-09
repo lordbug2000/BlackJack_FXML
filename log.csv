@@ -1,8 +1,95 @@
-"Date","Game Number","Player Hand","Player Final Score", "Dealer Hands","Dealer Final Score","Final Result","Session W:L Record"
-"Sun Oct 08 16:57:12 EDT 2017","Game #1","[Ace of Clubs (11), Seven of Diamonds (7)]","18","[Queen of Diamonds (10), Queen of Hearts (10)]","20","Dealer Wins!","0:1",
-"Sun Oct 08 16:57:15 EDT 2017","Game #2","[Nine of Diamonds (9), Six of Hearts (6), Ace of Spades (11), Nine of Diamonds (9)]","25","[Eight of Spades (8), Nine of Hearts (9)]","17","Player Bust!","0:2",
-"Sun Oct 08 16:57:23 EDT 2017","Game #3","[Seven of Hearts (7), Ace of Hearts (11), Two of Clubs (2)]","20","[Jack of Hearts (10), Nine of Hearts (9)]","19","Player Wins!","1:2",
-"Sun Oct 08 16:57:26 EDT 2017","Game #4","[Nine of Spades (9), Ten of Clubs (10)]","19","[Four of Spades (4), Nine of Clubs (9), Five of Spades (5)]","18","Player Wins!","2:2",
-"Sun Oct 08 16:57:28 EDT 2017","Game #5","[Six of Diamonds (6), Nine of Spades (9), Ten of Diamonds (10)]","25","[Ten of Diamonds (10), Queen of Hearts (10)]","20","Player Bust!","2:3",
-"Sun Oct 08 16:57:32 EDT 2017","Game #6","[Queen of Clubs (10), Four of Clubs (4), Three of Hearts (3)]","17","[Nine of Spades (9), Six of Diamonds (6), Five of Clubs (5)]","20","Dealer Wins!","2:4",
-"Sun Oct 08 16:57:38 EDT 2017","Game #7","[Seven of Clubs (7), Two of Spades (2), Nine of Hearts (9)]","18","[Four of Clubs (4), Ace of Spades (11), Eight of Hearts (8), Five of Clubs (5)]","18","Tie!","3:4",
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Sun Oct 08 16:57:12 EDT 2017,Game #1,"[Ace of Clubs (11), Seven of Diamonds (7)]",18,"[Queen of Diamonds (10), Queen of Hearts (10)]",20,Dealer Wins!,00:01
+Sun Oct 08 16:57:15 EDT 2017,Game #2,"[Nine of Diamonds (9), Six of Hearts (6), Ace of Spades (11), Nine of Diamonds (9)]",25,"[Eight of Spades (8), Nine of Hearts (9)]",17,Player Bust!,00:02
+Sun Oct 08 16:57:23 EDT 2017,Game #3,"[Seven of Hearts (7), Ace of Hearts (11), Two of Clubs (2)]",20,"[Jack of Hearts (10), Nine of Hearts (9)]",19,Player Wins!,01:02
+Sun Oct 08 16:57:26 EDT 2017,Game #4,"[Nine of Spades (9), Ten of Clubs (10)]",19,"[Four of Spades (4), Nine of Clubs (9), Five of Spades (5)]",18,Player Wins!,02:02
+Sun Oct 08 16:57:28 EDT 2017,Game #5,"[Six of Diamonds (6), Nine of Spades (9), Ten of Diamonds (10)]",25,"[Ten of Diamonds (10), Queen of Hearts (10)]",20,Player Bust!,02:03
+Sun Oct 08 16:57:32 EDT 2017,Game #6,"[Queen of Clubs (10), Four of Clubs (4), Three of Hearts (3)]",17,"[Nine of Spades (9), Six of Diamonds (6), Five of Clubs (5)]",20,Dealer Wins!,02:04
+Sun Oct 08 16:57:38 EDT 2017,Game #7,"[Seven of Clubs (7), Two of Spades (2), Nine of Hearts (9)]",18,"[Four of Clubs (4), Ace of Spades (11), Eight of Hearts (8), Five of Clubs (5)]",18,Tie!,03:04
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Mon Oct 09 08:39:28 EDT 2017,Game #1,"[Four of Spades (4), Two of Spades (2), Jack of Clubs (10)]",16,"[Two of Spades (2), Jack of Spades (10), Ace of Hearts (11), Queen of Hearts (10)]",23,Dealer Bust!,01:00
+Mon Oct 09 08:39:32 EDT 2017,Game #2,"[Nine of Diamonds (9), Queen of Diamonds (10), Seven of Diamonds (7)]",26,"[Three of Hearts (3), Two of Diamonds (2)]",5,Player Bust!,01:01
+Mon Oct 09 08:39:36 EDT 2017,Game #3,"[Ten of Diamonds (10), Five of Spades (5)]",15,"[Queen of Hearts (10), Four of Hearts (4), Queen of Clubs (10)]",24,Dealer Bust!,02:01
+Mon Oct 09 08:39:40 EDT 2017,Game #4,"[Nine of Diamonds (9), Eight of Hearts (8), Ten of Spades (10)]",27,"[Seven of Diamonds (7), Six of Hearts (6)]",13,Player Bust!,02:02
+Mon Oct 09 08:39:43 EDT 2017,Game #5,"[Four of Diamonds (4), Seven of Spades (7)]",11,"[Seven of Clubs (7), Nine of Diamonds (9), Six of Diamonds (6)]",22,Dealer Bust!,03:02
+Mon Oct 09 08:39:51 EDT 2017,Game #6,"[Nine of Hearts (9), Three of Hearts (3), Three of Spades (3), Three of Diamonds (3)]",18,"[Six of Clubs (6), Queen of Hearts (10), Jack of Hearts (10)]",26,Dealer Bust!,04:02
+Mon Oct 09 08:39:56 EDT 2017,Game #7,"[Eight of Hearts (8), Ten of Clubs (10), Eight of Hearts (8)]",26,"[Five of Hearts (5), Six of Diamonds (6)]",11,Player Bust!,04:03
+Mon Oct 09 08:39:59 EDT 2017,Game #8,"[Seven of Clubs (7), Queen of Spades (10)]",17,"[Ten of Spades (10), Eight of Clubs (8)]",18,Dealer Wins!,04:04
+Mon Oct 09 08:40:05 EDT 2017,Game #9,"[Five of Diamonds (5), Four of Clubs (4), Jack of Diamonds (10)]",19,"[Seven of Diamonds (7), Queen of Diamonds (10)]",17,Player Wins!,05:04
+Mon Oct 09 08:40:21 EDT 2017,Game #10,"[Nine of Diamonds (9), Eight of Clubs (8)]",17,"[Ten of Hearts (10), Ten of Spades (10)]",20,Dealer Wins!,05:05
+Mon Oct 09 08:40:27 EDT 2017,Game #11,"[Four of Diamonds (4), Seven of Spades (7), Eight of Spades (8)]",19,"[Nine of Clubs (9), Six of Diamonds (6), Queen of Hearts (10)]",25,Dealer Bust!,06:05
+Mon Oct 09 08:40:30 EDT 2017,Game #12,"[Ten of Spades (10), Seven of Clubs (7)]",17,"[Eight of Spades (8), Ace of Diamonds (11)]",19,Dealer Wins!,06:06
+Mon Oct 09 08:40:33 EDT 2017,Game #13,"[Jack of Hearts (10), Ten of Diamonds (10)]",20,"[Two of Hearts (2), Six of Clubs (6), Nine of Spades (9)]",17,Player Wins!,07:06
+Mon Oct 09 08:40:35 EDT 2017,Game #13,"[Six of Spades (6), Five of Diamonds (5)]",11,"[Ten of Spades (10), Ace of Hearts (11)]",21,null,07:06
+Mon Oct 09 08:40:41 EDT 2017,Game #14,"[Ace of Spades (11), Ace of Hearts (11), Eight of Clubs (8), Four of Diamonds (4)]",14,"[Queen of Clubs (10), Six of Hearts (6), Six of Diamonds (6)]",22,Dealer Bust!,08:06
+Mon Oct 09 08:40:42 EDT 2017,Game #14,"[Ace of Hearts (11), Queen of Clubs (10)]",21,"[Nine of Diamonds (9), Two of Diamonds (2)]",11,null,08:06
+Mon Oct 09 08:40:47 EDT 2017,Game #15,"[Ten of Clubs (10), Eight of Hearts (8)]",18,"[Eight of Diamonds (8), Seven of Hearts (7), Three of Spades (3)]",18,Tie!,09:06
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Mon Oct 09 08:42:22 EDT 2017,Game #1,"[Four of Spades (4), Queen of Hearts (10)]",14,"[Three of Diamonds (3), Nine of Spades (9), Ten of Hearts (10)]",22,Dealer Bust!,01:00
+Mon Oct 09 08:42:27 EDT 2017,Game #2,"[Five of Clubs (5), Jack of Hearts (10)]",15,"[Six of Hearts (6), Queen of Clubs (10), Ace of Clubs (11)]",17,Dealer Wins!,01:01
+Mon Oct 09 08:42:33 EDT 2017,Game #3,"[Jack of Spades (10), Four of Spades (4)]",14,"[Four of Diamonds (4), Five of Hearts (5), Four of Clubs (4), Jack of Clubs (10)]",23,Dealer Bust!,02:01
+Mon Oct 09 08:42:38 EDT 2017,Game #4,"[Ace of Diamonds (11), Eight of Diamonds (8)]",19,"[Two of Spades (2), Two of Spades (2), Five of Hearts (5), Queen of Diamonds (10)]",19,Tie!,03:01
+Mon Oct 09 08:42:41 EDT 2017,Game #5,"[Five of Diamonds (5), Queen of Diamonds (10)]",15,"[Ace of Spades (11), Four of Diamonds (4), Three of Diamonds (3)]",18,Dealer Wins!,03:02
+Mon Oct 09 08:42:48 EDT 2017,Game #6,"[Five of Clubs (5), Nine of Clubs (9)]",14,"[Six of Hearts (6), Ace of Diamonds (11)]",17,Dealer Wins!,03:03
+Mon Oct 09 08:42:51 EDT 2017,Game #7,"[Six of Spades (6), Eight of Spades (8)]",14,"[Nine of Diamonds (9), Six of Hearts (6), Jack of Diamonds (10)]",25,Dealer Bust!,04:03
+Mon Oct 09 08:42:53 EDT 2017,Game #8,"[Nine of Diamonds (9), Queen of Clubs (10)]",19,"[Queen of Spades (10), Seven of Diamonds (7)]",17,Player Wins!,05:03
+Mon Oct 09 08:42:56 EDT 2017,Game #9,"[Eight of Spades (8), Five of Diamonds (5)]",13,"[Eight of Diamonds (8), Eight of Clubs (8), Queen of Hearts (10)]",26,Dealer Bust!,06:03
+Mon Oct 09 08:42:59 EDT 2017,Game #10,"[Seven of Diamonds (7), Queen of Clubs (10)]",17,"[Eight of Clubs (8), Ten of Hearts (10)]",18,Dealer Wins!,06:04
+Mon Oct 09 08:43:02 EDT 2017,Game #11,"[Ten of Diamonds (10), Five of Clubs (5)]",15,"[Queen of Hearts (10), Nine of Diamonds (9)]",19,Dealer Wins!,06:05
+Mon Oct 09 08:43:10 EDT 2017,Game #12,"[Five of Diamonds (5), Eight of Diamonds (8)]",13,"[Four of Spades (4), Ten of Hearts (10), Nine of Diamonds (9)]",23,Dealer Bust!,07:05
+Mon Oct 09 08:43:13 EDT 2017,Game #13,"[Four of Hearts (4), Queen of Diamonds (10)]",14,"[Ten of Diamonds (10), Five of Clubs (5), Ten of Spades (10)]",25,Dealer Bust!,08:05
+Mon Oct 09 08:43:17 EDT 2017,Game #14,"[Five of Diamonds (5), Ace of Hearts (11)]",16,"[Seven of Clubs (7), Eight of Hearts (8), Eight of Spades (8)]",23,Dealer Bust!,09:05
+Mon Oct 09 08:43:29 EDT 2017,Game #15,"[Two of Diamonds (2), Six of Diamonds (6), Ace of Hearts (11)]",19,"[Nine of Clubs (9), Three of Hearts (3), Ace of Clubs (11), Queen of Diamonds (10)]",23,Dealer Bust!,10:05
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Mon Oct 09 08:54:23 EDT 2017,Game #1,"[Jack of Diamonds (10), Five of Spades (5), Six of Diamonds (6)]",21,"[Queen of Clubs (10), Six of Hearts (6)]",16,Player 21!,01:00
+Mon Oct 09 08:54:28 EDT 2017,Game #2,"[Six of Clubs (6), Five of Diamonds (5), Seven of Clubs (7)]",18,"[Nine of Hearts (9), Two of Hearts (2), Jack of Diamonds (10)]",21,Dealer 21!,01:01
+Mon Oct 09 08:54:35 EDT 2017,Game #3,"[Seven of Spades (7), Jack of Spades (10), Two of Spades (2)]",19,"[Ace of Clubs (11), Two of Spades (2), Two of Hearts (2), Two of Diamonds (2)]",17,Player Wins!,02:01
+Mon Oct 09 08:54:39 EDT 2017,Game #4,"[Six of Hearts (6), Seven of Diamonds (7), Ten of Spades (10)]",23,"[Jack of Diamonds (10), Nine of Diamonds (9)]",19,Player Bust!,02:02
+Mon Oct 09 08:54:46 EDT 2017,Game #5,"[Ace of Diamonds (11), Eight of Spades (8), Seven of Clubs (7)]",16,"[Six of Hearts (6), Jack of Diamonds (10), Ten of Spades (10)]",26,Dealer Bust!,03:02
+Mon Oct 09 08:54:53 EDT 2017,Game #6,"[Seven of Diamonds (7), Five of Spades (5), Two of Hearts (2), Two of Diamonds (2), Seven of Spades (7)]",23,"[Nine of Hearts (9), Eight of Diamonds (8)]",17,Player Bust!,03:03
+Mon Oct 09 08:54:56 EDT 2017,Game #7,"[Three of Spades (3), Six of Hearts (6), Ace of Diamonds (11), Ace of Diamonds (11)]",21,"[Six of Diamonds (6), Seven of Spades (7), Six of Spades (6)]",19,Player 21!,04:03
+Mon Oct 09 08:54:58 EDT 2017,Game #7,"[Two of Spades (2), Eight of Hearts (8)]",10,"[Ace of Spades (11), Ten of Spades (10)]",21,null,04:03
+Mon Oct 09 08:55:06 EDT 2017,Game #8,"[Seven of Hearts (7), Four of Clubs (4), Nine of Diamonds (9)]",20,"[Four of Spades (4), Jack of Spades (10), Ace of Clubs (11), Jack of Hearts (10)]",25,Dealer Bust!,05:03
+Mon Oct 09 08:55:11 EDT 2017,Game #9,"[Eight of Hearts (8), Jack of Diamonds (10)]",18,"[Eight of Clubs (8), Five of Hearts (5), Four of Hearts (4)]",17,Player Wins!,06:03
+Mon Oct 09 08:55:16 EDT 2017,Game #10,"[Ace of Diamonds (11), Six of Spades (6), Ace of Clubs (11)]",18,"[Five of Spades (5), Nine of Hearts (9), Jack of Diamonds (10)]",24,Dealer Bust!,07:03
+Mon Oct 09 08:55:23 EDT 2017,Game #11,"[Six of Spades (6), Four of Clubs (4), Eight of Spades (8)]",18,"[Four of Clubs (4), Three of Hearts (3), Queen of Clubs (10)]",17,Player Wins!,08:03
+Mon Oct 09 08:55:26 EDT 2017,Game #12,"[Jack of Clubs (10), Five of Diamonds (5), Ten of Clubs (10)]",25,"[Five of Hearts (5), Seven of Spades (7)]",12,Player Bust!,08:04
+Mon Oct 09 08:55:30 EDT 2017,Game #13,"[Nine of Clubs (9), Three of Spades (3), Seven of Hearts (7)]",19,"[Jack of Diamonds (10), Nine of Spades (9)]",19,Tie!,09:04
+Mon Oct 09 08:55:33 EDT 2017,Game #14,"[Seven of Hearts (7), Eight of Diamonds (8), Jack of Hearts (10)]",25,"[Two of Hearts (2), Nine of Spades (9)]",11,Player Bust!,09:05
+Mon Oct 09 08:55:36 EDT 2017,Game #15,"[Nine of Hearts (9), Ten of Spades (10), Queen of Diamonds (10)]",29,"[Five of Spades (5), Two of Hearts (2)]",7,Player Bust!,09:06
+Mon Oct 09 08:55:58 EDT 2017,Game #16,"[Four of Hearts (4), Five of Hearts (5)]",9,"[Four of Hearts (4), Ace of Hearts (11), Ten of Spades (10)]",15,Dealer Wins,09:07
+Mon Oct 09 08:57:41 EDT 2017,Game #16,"[Queen of Clubs (10), Four of Diamonds (4)]",14,"[Four of Spades (4), Eight of Hearts (8), Ace of Hearts (11), Ace of Clubs (11)]",14,Err:14-14,10:06
+Mon Oct 09 08:57:42 EDT 2017,Game #16,"[Five of Clubs (5), Eight of Hearts (8)]",13,"[Nine of Diamonds (9), Two of Spades (2), Five of Clubs (5)]",16,Err:16-13,11:05
+Mon Oct 09 08:57:43 EDT 2017,Game #0,[],0,[],0,null,00:00
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Mon Oct 09 09:50:52 EDT 2017,Game #1,"[Jack of Spades (10), Two of Hearts (2), Five of Hearts (5), Two of Clubs (2)]",19,"[Five of Clubs (5), Jack of Spades (10), Six of Spades (6)]",21,Dealer 21!,00:01
+Mon Oct 09 09:50:57 EDT 2017,Game #2,"[Eight of Spades (8), Six of Clubs (6), Ace of Hearts (11), Jack of Diamonds (10)]",25,"[Six of Diamonds (6), Five of Diamonds (5), Queen of Clubs (10)]",21,Dealer 21!,00:02
+Mon Oct 09 09:51:03 EDT 2017,Game #3,"[Jack of Hearts (10), Three of Clubs (3), Four of Hearts (4)]",17,"[Three of Hearts (3), Nine of Diamonds (9), Four of Spades (4), Five of Hearts (5)]",21,Dealer 21!,00:03
+Mon Oct 09 09:51:06 EDT 2017,Game #4,"[Eight of Diamonds (8), Queen of Hearts (10)]",18,"[Jack of Diamonds (10), Six of Hearts (6), Ace of Clubs (11)]",17,Player Wins!,01:03
+Mon Oct 09 09:51:51 EDT 2017,Game #5,"[Three of Clubs (3), Two of Diamonds (2), Two of Diamonds (2), Three of Hearts (3), Six of Clubs (6)]",16,"[Eight of Spades (8), Seven of Clubs (7), Four of Hearts (4)]",19,5 Card Charlie!,02:03
+Mon Oct 09 09:51:55 EDT 2017,Game #6,"[Five of Diamonds (5), Five of Clubs (5), Jack of Hearts (10)]",20,"[Four of Hearts (4), Queen of Spades (10), Queen of Clubs (10)]",24,Dealer Bust!,03:03
+Mon Oct 09 09:52:02 EDT 2017,Game #7,"[Two of Spades (2), Ace of Hearts (11), Five of Clubs (5), Queen of Clubs (10)]",18,"[Nine of Spades (9), Two of Hearts (2), Six of Diamonds (6)]",17,Player Wins!,04:03
+Mon Oct 09 09:52:05 EDT 2017,Game #8,"[Ace of Spades (11), Four of Diamonds (4), Six of Clubs (6)]",21,"[Seven of Clubs (7), Seven of Hearts (7)]",14,Player 21!,05:03
+Mon Oct 09 09:52:08 EDT 2017,Game #9,"[Ten of Hearts (10), Seven of Diamonds (7), Six of Diamonds (6)]",23,"[Six of Hearts (6), Seven of Spades (7)]",13,Player Bust!,05:04
+Mon Oct 09 09:52:10 EDT 2017,Game #10,"[Jack of Clubs (10), Three of Spades (3), Eight of Diamonds (8)]",21,"[Seven of Diamonds (7), Four of Diamonds (4)]",11,Player 21!,06:04
+Mon Oct 09 09:52:15 EDT 2017,Game #11,"[Two of Spades (2), Seven of Spades (7), Ace of Clubs (11)]",20,"[Nine of Diamonds (9), Five of Diamonds (5), Four of Hearts (4)]",18,Player Wins!,07:04
+Mon Oct 09 09:52:18 EDT 2017,Game #12,"[Six of Hearts (6), Nine of Diamonds (9), Two of Diamonds (2), Queen of Diamonds (10)]",27,"[Queen of Clubs (10), Eight of Spades (8)]",18,Player Bust!,07:05
+Mon Oct 09 09:52:27 EDT 2017,Game #13,"[Four of Spades (4), Six of Diamonds (6), Five of Clubs (5), Queen of Hearts (10)]",25,"[Eight of Hearts (8), Four of Clubs (4), Ace of Clubs (11)]",13,Player Bust!,07:06
+Mon Oct 09 09:52:52 EDT 2017,Game #14,"[Seven of Diamonds (7), Ace of Diamonds (11), Eight of Hearts (8), Seven of Clubs (7)]",23,"[Two of Clubs (2), Two of Spades (2), Queen of Spades (10)]",14,Player Bust!,07:07
+Mon Oct 09 09:52:57 EDT 2017,Game #15,"[Queen of Hearts (10), Six of Hearts (6), Three of Diamonds (3)]",19,"[Five of Clubs (5), Ace of Diamonds (11), Nine of Diamonds (9), Seven of Diamonds (7)]",22,Dealer Bust!,08:07
+Mon Oct 09 09:53:13 EDT 2017,Game #16,"[Eight of Clubs (8), Seven of Clubs (7), Four of Diamonds (4)]",19,"[Six of Hearts (6), Ten of Hearts (10), Three of Spades (3)]",19,Tie!,09:07
+Mon Oct 09 09:53:20 EDT 2017,Game #17,"[Ten of Hearts (10), Five of Diamonds (5), Three of Diamonds (3), Six of Spades (6)]",24,"[Jack of Diamonds (10), Queen of Clubs (10)]",20,Player Bust!,09:08
+Mon Oct 09 09:53:30 EDT 2017,Game #18,"[Queen of Hearts (10), Three of Clubs (3), Six of Diamonds (6)]",19,"[Three of Spades (3), Ten of Diamonds (10), Ten of Hearts (10)]",23,Dealer Bust!,10:08
+Mon Oct 09 09:53:35 EDT 2017,Game #19,"[Five of Diamonds (5), Six of Spades (6), Eight of Hearts (8)]",19,"[Six of Diamonds (6), Ace of Diamonds (11)]",17,Player Wins!,11:08
+Mon Oct 09 09:53:37 EDT 2017,Game #20,"[Seven of Diamonds (7), Six of Hearts (6), Jack of Hearts (10)]",23,"[Four of Diamonds (4), Seven of Diamonds (7)]",11,Player Bust!,11:09
+Mon Oct 09 09:53:43 EDT 2017,Game #21,"[Ace of Hearts (11), Ace of Clubs (11), Eight of Hearts (8)]",20,"[Jack of Clubs (10), Seven of Spades (7)]",17,Player Wins!,12:09
+Mon Oct 09 09:54:21 EDT 2017,Game #22,"[Five of Spades (5), Ten of Hearts (10), Three of Diamonds (3), Six of Spades (6)]",24,"[Five of Clubs (5), Eight of Hearts (8), Ten of Diamonds (10)]",23,Player Bust!,12:10
+Mon Oct 09 09:54:25 EDT 2017,Game #23,"[Six of Hearts (6), Six of Spades (6), Nine of Clubs (9)]",21,"[Four of Clubs (4), Queen of Spades (10)]",14,Player 21!,13:10
+Mon Oct 09 09:54:32 EDT 2017,Game #24,"[Three of Clubs (3), Ace of Spades (11), Queen of Clubs (10), Seven of Clubs (7)]",21,"[Queen of Clubs (10), Four of Hearts (4), Queen of Spades (10)]",24,Player 21!,14:10
+Mon Oct 09 09:54:39 EDT 2017,Game #25,"[Queen of Hearts (10), Jack of Diamonds (10)]",20,"[Four of Spades (4), Eight of Hearts (8), Nine of Hearts (9)]",21,Dealer 21!,14:11
+Mon Oct 09 09:54:45 EDT 2017,Game #26,"[Eight of Hearts (8), Six of Spades (6), Six of Hearts (6)]",20,"[Ten of Spades (10), Queen of Clubs (10)]",20,Tie!,15:11
+Mon Oct 09 09:55:42 EDT 2017,Game #27,"[Two of Hearts (2), Three of Hearts (3), Three of Spades (3), Nine of Clubs (9)]",17,"[Two of Diamonds (2), Three of Clubs (3), Three of Diamonds (3), Eight of Diamonds (8), Ten of Diamonds (10)]",26,Dealer Bust!,16:11
+Mon Oct 09 09:55:51 EDT 2017,Game #28,"[Four of Diamonds (4), Eight of Hearts (8), Nine of Clubs (9)]",21,"[Queen of Diamonds (10), Seven of Clubs (7)]",17,Player 21!,17:11
+Date,Game Number,Player Hand,Player Final Score," ""Dealer Hands""",Dealer Final Score,Final Result,Session W:L Record
+Mon Oct 09 09:58:01 EDT 2017,Game #0,"[Ten of Hearts (10), Five of Clubs (5)]",15,"[Seven of Clubs (7), Five of Spades (5)]",12,null,00:00
